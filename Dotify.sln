@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotify.DAL", "Dotify.DAL\Dotify.DAL.csproj", "{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69B9AB2E-E9D3-48D0-B901-586B791B8DD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleApp1\ConsoleTest.csproj", "{3836570D-CACA-4250-BC53-95F9C3F15C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3836570D-CACA-4250-BC53-95F9C3F15C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3836570D-CACA-4250-BC53-95F9C3F15C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3836570D-CACA-4250-BC53-95F9C3F15C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3836570D-CACA-4250-BC53-95F9C3F15C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{805973D9-A6B2-4FC8-AA9C-849D32C2B9DD} = {69B9AB2E-E9D3-48D0-B901-586B791B8DD0}
+		{3836570D-CACA-4250-BC53-95F9C3F15C89} = {69B9AB2E-E9D3-48D0-B901-586B791B8DD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32A83BA3-D58D-4647-BAB5-2A4AEA66938D}
+	EndGlobalSection
+EndGlobal
